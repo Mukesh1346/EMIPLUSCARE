@@ -1,0 +1,46 @@
+.extended-page .section-title {
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 6px;
+}
+
+.nav-link {
+  color: #333 !important;
+  border: none;
+  background: none;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.steps-list .list-group-item {
+  border: none;
+  font-size: 0.95rem;
+}
+
+.appliance-card:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
+
+.review-box {
+  border-left: 4px solid #0d6efd;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+@media (max-width: 768px){
+    .nav-link{
+        font-size: 10px;
+        border:1px solid gray;
+        border-radius: 40px;
+         margin:5px;
+    }
+}
