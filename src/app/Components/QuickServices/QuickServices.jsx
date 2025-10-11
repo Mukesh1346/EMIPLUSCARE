@@ -53,9 +53,12 @@ export default function ExtendedWarrantyPage() {
   ]
 
   return (
-    <div className="extended-page container py-4">
+   <>
+   <div className="QuickSuperSec">
+
+   <div className="extended-page container py-4">
       {/* ===== Tabs ===== */}
-      <nav className="navbar sticky-top bg-white border-bottom shadow-sm mb-5">
+      <nav className="navbar QuickService sticky-top bg-white border-bottom shadow-sm ">
         <ul className="nav justify-content-center py-2 fw-medium">
           <li className="nav-item">
             <button onClick={() => handleScroll("why")} className="nav-link">Why Extended</button>
@@ -76,15 +79,15 @@ export default function ExtendedWarrantyPage() {
       </nav>
 
       {/* ===== WHY EXTENDED ===== */}
-      <section id="why" className="mb-5">
+      <section id="why" className=" WhyWork card mb-5">
         <h3 className="section-title">Why Extended warranty?</h3>
 
-        <div className="row gy-4 mt-3">
+        <div className="row FrequentSection gy-4 mt-3">
             <div className=" d-flex gap-3">
            <Image src={icon1}  alt="icon1" className="icons" width={34} height={34} />
             <div>
               <h6 className="fw-bold">Frequent Breakdowns are a reality</h6>
-              <p className="text-muted mb-0">
+              <p className="text-muted paratext mb-0">
                 Avoid inconvenience by getting an extended Warranty for your device.
               </p>
             </div>
@@ -94,7 +97,7 @@ export default function ExtendedWarrantyPage() {
            <Image src={icon2}  alt="icon1" className="icons" width={34} height={34} />
             <div>
               <h6 className="fw-bold">Repair costs are exorbitant</h6>
-              <p className="text-muted mb-0">
+              <p className="text-muted paratext mb-0">
                 A damaged panel can cost you nearly 75% of your TV cost. Save on such unexpected costs.
               </p>
             </div>
@@ -104,7 +107,7 @@ export default function ExtendedWarrantyPage() {
            <Image src={icon3}  alt="icon1" className="icons" width={34} height={34} />
             <div>
               <h6 className="fw-bold">Unqualified repairers are aplenty</h6>
-              <p className="text-muted mb-0">
+              <p className="text-muted paratext mb-0">
                 Extended warranty plan benefits ensure your product is in safe hands.
               </p>
             </div>
@@ -113,27 +116,27 @@ export default function ExtendedWarrantyPage() {
       </section>
 
       {/* ===== HOW IT WORKS ===== */}
-      <section id="how" className="mb-5">
+      <section id="how" className="HowWork card mb-5">
         <h3 className="section-title">How does it work?</h3>
 
         <ul className="list-group list-group-flush mt-3 steps-list">
-          <li className="list-group-item">
-         <Image src={icon5}  alt="icon1" className="icons me-4" width={34} height={34} /> Device breaks down
+          <li className="list-group-item listSection">
+         <div><Image src={icon5}  alt="icon1" className="icons me-4" width={34} height={34} /></div><span> Device breaks down</span>
           </li>
-          <li className="list-group-item">
- <Image src={icon3}  alt="icon1" className="icons me-4" width={34} height={34} /> Schedule an appointment anytime as per your convenience
+          <li className="list-group-item listSection">
+ <div><Image src={icon3}  alt="icon1" className="icons me-4" width={34} height={34} /> </div><span>Schedule an appointment anytime as per your convenience</span>
           </li>
-          <li className="list-group-item">
-            <Image src={icon4}  alt="icon1" className="icons me-4" width={34} height={34} /> Verified technician visits as per appointment
+          <li className="list-group-item listSection">
+           <div> <Image src={icon4}  alt="icon1" className="icons me-4" width={34} height={34} /></div> <span>Verified technician visits as per appointment</span>
           </li>
-          <li className="list-group-item">
-            <Image src={icon1}  alt="icon1" className="icons me-4" width={34} height={34} />  Pay nothing. Save time and hassles
+          <li className="list-group-item listSection">
+           <div> <Image src={icon1}  alt="icon1" className="icons me-4" width={34} height={34} /></div> <span> Pay nothing. Save time and hassles</span>
           </li>
         </ul>
       </section>
 
       {/* ===== APPLIANCES COVERED ===== */}
-      <section id="appliances" className="mb-5">
+      <section id="appliances" className=" appliances card mb-5">
         <h3 className="section-title">Appliances Covered</h3>
 
         <div className="row text-center gy-4 mt-3">
@@ -151,7 +154,7 @@ export default function ExtendedWarrantyPage() {
       </section>
 
       {/* ===== CUSTOMER REVIEWS ===== */}
-      <section id="reviews" className="mb-5">
+      <section id="reviews" className=" card reviews mb-5">
         <h3 className="section-title">Customer Reviews</h3>
 
         <div className="review-box mt-3">
@@ -184,10 +187,33 @@ export default function ExtendedWarrantyPage() {
       </section>
 
       {/* ===== FAQ ===== */}
-      <section id="faq">
-        <h3 className="section-title">Frequently Asked Questions</h3>
 
-        <div className="accordion mt-3" id="faqAccordion">
+      <section>
+        <div className="faqSection card">
+        <h3 className="section-title">Frequently Asked Questions</h3>
+          <div className="QuestionSection">
+            <b>Q1. Why should I take a home appliances protection/ extended warranty plan?</b> <br />
+            <p className="faqTextpara">ome Appliances allow us to enjoy life fully. A home warranty is a 1-year service contract product by OneAssist that covers the service and repair of most major home appliances (refrigerator, air conditioner, washing machine, television, and others) and system components due to failure, standard usage, and other problems due to age. A home warranty will typically cover most major components of your “refrigerator repair and service”, “air conditioner repair and service”, “washing machine repair and service”, “television repair and service” and “extended warranty” coverage.</p>
+          </div>
+          <div className="QuestionSection">
+            <b>Q2. What is an Extended Warranty Plan?</b> <br />
+            <p className="faqTextpara">Extended Warranty Plan (EWP), also commonly referred to as Extended Warranty Service Contract (EWSC) or Extended Service Plan (ESP). An extended Warranty (EW) is a Service Agreement that replicates and extends the manufacturers warranty on your product by a specified period. It effectively transfers the financial risk of product breakdown from the buyer of the EWP to its provider. In event of the covered product breaking down functionally, the provider of the EW undertakes the repairs of the product as per the terms specified in the EWP.</p>
+          </div >
+          <div className="QuestionSection">
+            <b>Q3. Why should I buy Extended Warranty Pro+ offered by OneAssist?</b> <br />
+            <p className="faqTextpara">Extended Warranty Pro+ provided by OneAssist not only extends the term length of the manufacturers warranty but also enhances the coverage and services provided during the extended period. With the plans extended time and enhanced coverage and services, you can enjoy your product worry-free with complete peace of mind. With Extended Warranty Pro+, you can extend the term of your coverage for up to additional 2 years. Your product is covered not just for defects in material and workmanship but also for mechanical and electrical failure arising out of normal wear and tear, and environmental factors such as heat, dust, and humidity. Requesting for service is easy, convenient, takes less than 5 minutes, and can be done 24x7x365. We also have a dedicated claims team to help you. Our service experts visit within 6 business hours of your request or you can schedule an appointment for a later time as per your convenience. We offer an unmatched 10-business-day repair or replacement guarantee! The majority of repairs we undertake take less than a week. You are entitled to TRULY UNLIMITED REPAIRS during the plan period up to the product purchase value i.e. the product price before any applicable discounts or offers like an exchange value. Every time your product fails, we will repair it without any cost to you. Your products are repaired in the convenience of your home.24/7 customer support to file a complaint and claim at your convenience.</p>
+          </div>
+          <div className="QuestionSection">
+            <b>Q1. Why should I take a home appliances protection/ extended warranty plan?</b> <br />
+            <p className="faqTextpara">ome Appliances allow us to enjoy life fully. A home warranty is a 1-year service contract product by OneAssist that covers the service and repair of most major home appliances (refrigerator, air conditioner, washing machine, television, and others) and system components due to failure, standard usage, and other problems due to age. A home warranty will typically cover most major components of your “refrigerator repair and service”, “air conditioner repair and service”, “washing machine repair and service”, “television repair and service” and “extended warranty” coverage.</p>
+          </div>
+        </div>
+      </section>
+
+        
+      <section id="faq">
+
+        {/* <div className="accordion mt-3" id="faqAccordion">
           <div className="accordion-item">
             <h2 className="accordion-header">
               <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
@@ -222,12 +248,15 @@ export default function ExtendedWarrantyPage() {
             </h2>
             <div id="q3" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div className="accordion-body">
-                OneAssist’s Extended Warranty Pro offers coverage for major mechanical and electrical failures along with 24x7 customer support and unlimited repairs during the coverage period.
+                OneAssists Extended Warranty Pro offers coverage for major mechanical and electrical failures along with 24x7 customer support and unlimited repairs during the coverage period.
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
+   </div>
+   
+   </>
   );
 }
