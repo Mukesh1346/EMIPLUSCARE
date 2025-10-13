@@ -31,12 +31,12 @@ export default function EarnWithUs() {
       },
     }).then(() => {
       // Trigger APK download from the public folder
-      const link = document.createElement("a");
-      link.href = "/warrentyExtend.apk"; // ✅ Put your APK file inside the public folder
-      link.download = "warrentyExtend.apk";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      // const link = document.createElement("a");
+      // link.href = "/warrentyExtend.apk"; // ✅ Put your APK file inside the public folder
+      // link.download = "warrentyExtend.apk";
+      // document.body.appendChild(link);
+      // link.click();
+      // document.body.removeChild(link);
     });
   };
 
