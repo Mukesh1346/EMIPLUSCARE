@@ -2,15 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-100px);
     font-family: 'Lato', sans-serif;
 }
+
+
 
 .hear-form {
     background: white;
     border-radius: 10px;
     padding: 30px 40px;
-    width: 360px;
+    width: 450px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -122,4 +123,14 @@
         transform: inherit;
        
     }
+
+    .hear-form {
+        background: white;
+        border-radius: 10px;
+        padding: 20px 40px;
+        width: auto;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    
 }
