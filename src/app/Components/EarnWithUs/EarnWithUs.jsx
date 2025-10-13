@@ -37,6 +37,15 @@ export default function EarnWithUs() {
       // document.body.appendChild(link);
       // link.click();
       // document.body.removeChild(link);
+
+      setFormData({
+        customerName: "",
+        customerEmail: "",
+        phoneNumber: "",
+        productName: "",
+        purchaseDate: "",
+      })
+
     });
   };
 
