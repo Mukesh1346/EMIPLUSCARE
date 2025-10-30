@@ -8,20 +8,41 @@ import icon3 from "@/app/Assist/Images/icon3.png"
 import icon4 from '@/app/Assist/Images/verifiy.png'
 import icon5 from '@/app/Assist/Images/device.png'
 
-import app1 from '@/app/Assist/Images/app1.png'
+// import app1 from '@/app/Assist/Images/app1.png'
+// import app2 from '@/app/Assist/Images/app2.png'
+// import app3 from '@/app/Assist/Images/app3.png'
+// import app4 from '@/app/Assist/Images/app4.png'
+// import app5 from '@/app/Assist/Images/app5.png'
+// import app6 from '@/app/Assist/Images/app6.png'
+// import app7 from '@/app/Assist/Images/app7.png'
+// import app8 from '@/app/Assist/Images/app8.png'
+// import app9 from '@/app/Assist/Images/app9.png'
+// import app10 from '@/app/Assist/Images/app10.png'
+// import app11 from '@/app/Assist/Images/app11.png'
+// import app12 from '@/app/Assist/Images/app12.png'
+// import app13 from '@/app/Assist/Images/app3.png'
+// import app14 from '@/app/Assist/Images/app4.png'
+
+import app1 from '@/app/Assist/Images/tv.png'
 import app2 from '@/app/Assist/Images/app2.png'
-import app3 from '@/app/Assist/Images/app3.png'
-import app4 from '@/app/Assist/Images/app4.png'
-import app5 from '@/app/Assist/Images/app5.png'
-import app6 from '@/app/Assist/Images/app6.png'
-import app7 from '@/app/Assist/Images/app7.png'
-import app8 from '@/app/Assist/Images/app8.png'
-import app9 from '@/app/Assist/Images/app9.png'
-import app10 from '@/app/Assist/Images/app10.png'
-import app11 from '@/app/Assist/Images/app11.png'
-import app12 from '@/app/Assist/Images/app12.png'
-import app13 from '@/app/Assist/Images/app3.png'
-import app14 from '@/app/Assist/Images/app4.png'
+import app3 from '@/app/Assist/Images/air-conditioner.png'
+import app4 from '@/app/Assist/Images/washing-machine.png'
+import app5 from '@/app/Assist/Images/microwave.png'
+import app6 from '@/app/Assist/Images/air-cooler.png'
+import app7 from '@/app/Assist/Images/air-purifier.png'
+import app8 from '@/app/Assist/Images/dish-washer.png'
+import app9 from '@/app/Assist/Images/dryer.png'
+import app10 from '@/app/Assist/Images/food-processor.png'
+import app11 from '@/app/Assist/Images/kitchen-chimney.png'
+import app12 from '@/app/Assist/Images/otg.png'
+import app13 from '@/app/Assist/Images/vaccum-cleaner.png'
+import app14 from '@/app/Assist/Images/water-heater.png'
+import app15 from '@/app/Assist/Images/water-purifier.png'
+
+
+
+
+
 import HearFromUs from "../HereFormUs/HereFormUs";
 
 export default function ExtendedWarrantyPage() {
@@ -39,16 +60,16 @@ export default function ExtendedWarrantyPage() {
     { id: 4, name: "Washing Machine", image: app4 },
     { id: 5, name: "Microwave Oven", image: app5 },
     { id: 6, name: "Air Cooler", image: app6 },
-    { id: 7, name: "Fan", image: app7 },
-    { id: 8, name: "Geyser", image: app8 },
-    { id: 9, name: "Food Processor", image: app9 },
-    { id: 10, name: "Kitchen Chimney", image: app10 },
-    { id: 11, name: "OTG", image: app11 },
-    { id: 12, name: "Vacuum Cleaner", image: app12 },
-    { id: 13, name: "Water Heater", image: app13 },
-    { id: 14, name: "Water Purifier", image: app14 },
-    { id: 15, name: "Dish Washer", image: app2 },
-    { id: 16, name: "Dryer", image: app1 },
+    { id: 7, name: "Air Purifier", image: app7 },
+    { id: 8, name: "Dish Washer", image: app8 },
+    { id: 9, name: "Dryer", image: app9 },
+    { id: 10, name: "Food Processor", image: app10 },
+    { id: 11, name: "Kitchen Chimney", image: app11 },
+    { id: 12, name: "OTG", image: app12 },
+    { id: 13, name: "Vaccuum Cleaner", image: app13 },
+    { id: 14, name: "Water Heater", image: app14 },
+    { id: 15, name: "Water Purifier", image: app15 },
+
 
 
   ]
@@ -159,7 +180,7 @@ export default function ExtendedWarrantyPage() {
               ))}
             </div>
 
-            <p className="text-primary fw-semibold mt-3">+16 more</p>
+            {/* <p className="text-primary fw-semibold mt-3">+16 more</p> */}
           </section>
 
           {/* ===== CUSTOMER REVIEWS ===== */}

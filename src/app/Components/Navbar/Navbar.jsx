@@ -15,6 +15,7 @@ export default function Navbar() {
            <div className=''>
                <Image src={logo} alt="LogoImage" className='brandLogo' />
               {/* <h3 className='text-stroke'>Warranty Extended </h3> */}
+              
             </div>
            </Link>
           <div className='d-flex align-items-center gap-4'>
