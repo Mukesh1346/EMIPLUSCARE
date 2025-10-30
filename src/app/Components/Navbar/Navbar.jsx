@@ -4,7 +4,7 @@ import React from 'react'
 import './navbar.css'
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import Link from 'next/link';
-import logo from '@/app/Assist/Images/logo.jpg'
+import logo from '@/app/Assist/Images/logo.png'
 
 export default function Navbar() {
   return (
