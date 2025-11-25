@@ -23,21 +23,22 @@ import icon5 from '@/app/Assist/Images/device.png'
 // import app13 from '@/app/Assist/Images/app3.png'
 // import app14 from '@/app/Assist/Images/app4.png'
 
-import app1 from '@/app/Assist/Images/tv.png'
-import app2 from '@/app/Assist/Images/app2.png'
-import app3 from '@/app/Assist/Images/air-conditioner.png'
-import app4 from '@/app/Assist/Images/washing-machine.png'
-import app5 from '@/app/Assist/Images/microwave.png'
-import app6 from '@/app/Assist/Images/air-cooler.png'
-import app7 from '@/app/Assist/Images/air-purifier.png'
-import app8 from '@/app/Assist/Images/dish-washer.png'
-import app9 from '@/app/Assist/Images/dryer.png'
-import app10 from '@/app/Assist/Images/food-processor.png'
-import app11 from '@/app/Assist/Images/kitchen-chimney.png'
-import app12 from '@/app/Assist/Images/otg.png'
-import app13 from '@/app/Assist/Images/vaccum-cleaner.png'
-import app14 from '@/app/Assist/Images/water-heater.png'
-import app15 from '@/app/Assist/Images/water-purifier.png'
+import app1 from '@/app/Assist/Images/mobile.png'
+import app2 from '@/app/Assist/Images/tv.png'
+import app3 from '@/app/Assist/Images/app2.png'
+import app4 from '@/app/Assist/Images/air-conditioner.png'
+import app5 from '@/app/Assist/Images/washing-machine.png'
+import app6 from '@/app/Assist/Images/microwave.png'
+import app7 from '@/app/Assist/Images/air-cooler.png'
+import app8 from '@/app/Assist/Images/air-purifier.png'
+import app9 from '@/app/Assist/Images/dish-washer.png'
+import app10 from '@/app/Assist/Images/dryer.png'
+import app11 from '@/app/Assist/Images/food-processor.png'
+import app12 from '@/app/Assist/Images/kitchen-chimney.png'
+import app13 from '@/app/Assist/Images/otg.png'
+import app14 from '@/app/Assist/Images/vaccum-cleaner.png'
+import app15 from '@/app/Assist/Images/water-heater.png'
+import app16 from '@/app/Assist/Images/water-purifier.png'
 
 
 
@@ -54,21 +55,22 @@ export default function ExtendedWarrantyPage() {
 
 
   const application = [
-    { id: 1, name: "Television", image: app1 },
-    { id: 2, name: "Refrigerator", image: app2 },
-    { id: 3, name: "Air Conditioner", image: app3 },
-    { id: 4, name: "Washing Machine", image: app4 },
-    { id: 5, name: "Microwave Oven", image: app5 },
-    { id: 6, name: "Air Cooler", image: app6 },
-    { id: 7, name: "Air Purifier", image: app7 },
-    { id: 8, name: "Dish Washer", image: app8 },
-    { id: 9, name: "Dryer", image: app9 },
-    { id: 10, name: "Food Processor", image: app10 },
-    { id: 11, name: "Kitchen Chimney", image: app11 },
-    { id: 12, name: "OTG", image: app12 },
-    { id: 13, name: "Vaccuum Cleaner", image: app13 },
-    { id: 14, name: "Water Heater", image: app14 },
-    { id: 15, name: "Water Purifier", image: app15 },
+    { id: 1, name: "Mobile", image: app1 },
+    { id: 2, name: "Television", image: app2 },
+    { id: 3, name: "Refrigerator", image: app3 },
+    { id: 4, name: "Air Conditioner", image: app4 },
+    { id: 5, name: "Washing Machine", image: app5 },
+    { id: 6, name: "Microwave Oven", image: app6 },
+    { id: 7, name: "Air Cooler", image: app7 },
+    { id: 8, name: "Air Purifier", image: app8 },
+    { id: 9, name: "Dish Washer", image: app9 },
+    { id: 10, name: "Dryer", image: app10 },
+    { id: 11, name: "Food Processor", image: app11 },
+    { id: 12, name: "Kitchen Chimney", image: app12 },
+    { id: 13, name: "OTG", image: app13 },
+    { id: 14, name: "Vaccuum Cleaner", image: app14 },
+    { id: 15, name: "Water Heater", image: app15 },
+    { id: 16, name: "Water Purifier", image: app16 },
 
 
 

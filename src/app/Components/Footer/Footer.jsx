@@ -65,14 +65,14 @@ export default function Footer() {
                 </a>
               </div>
 
-              {/* <ul className="list-inline footer-links mb-0">
-                <li className="list-inline-item"><a href="#">DELHI</a></li>
-                <li className="list-inline-item"><a href="#">UP</a></li>
+              <ul className="list-inline footer-links mb-0">
+                <li className="list-inline-item"><a href="#">All OVER INDIA</a></li>
+                {/* <li className="list-inline-item"><a href="#">UP</a></li>
                 <li className="list-inline-item"><a href="#">HARYANA</a></li>
                 <li className="list-inline-item"><a href="#">PUNJAB</a></li>
                 <li className="list-inline-item"><a href="#">UTTRAKHAND</a></li>
-                <li className="list-inline-item"><a href="#">RAJASTHAN</a></li>
-              </ul> */}
+                <li className="list-inline-item"><a href="#">RAJASTHAN</a></li> */}
+              </ul>
             </div>
 
             {/* Contact Info */}
