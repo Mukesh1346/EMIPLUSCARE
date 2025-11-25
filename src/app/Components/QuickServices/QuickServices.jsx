@@ -71,9 +71,6 @@ export default function ExtendedWarrantyPage() {
     { id: 14, name: "Vaccuum Cleaner", image: app14 },
     { id: 15, name: "Water Heater", image: app15 },
     { id: 16, name: "Water Purifier", image: app16 },
-
-
-
   ]
 
   return (
@@ -220,7 +217,7 @@ export default function ExtendedWarrantyPage() {
 
           {/* ===== FAQ ===== */}
 
-          <section>
+          <section id="faq">
             <div className="faqSection card">
               <h3 className="section-title">Frequently Asked Questions</h3>
               <div className="QuestionSection">
@@ -243,7 +240,7 @@ export default function ExtendedWarrantyPage() {
           </section>
 
 
-          <section id="faq">
+          <section >
 
             {/* <div className="accordion mt-3" id="faqAccordion">
           <div className="accordion-item">
